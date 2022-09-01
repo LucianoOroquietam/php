@@ -1,12 +1,17 @@
 <?php
 
+if(!isset($_GET ["num1"]) && !isset($_GET["num2"]) && isset($_GET["operaciones"])){
+    echo "Faltan Parametros";
+    return;
+}
+
 $num1 = $_GET ["num1"];
 $num2 = $_GET ["num2"];
 $operacion = $_GET ["operaciones"];
 
-if( empty(["operaciones"]) )
+if(!is_numeric($num1) || !is_numeric($num2) ||  empty($operaciones))
 {
-    echo "vuelva a ingresar el valor , valor vacio";
+    echo "Vuelva a ingresar el valor , valor vacio";
     return;
 }
 
