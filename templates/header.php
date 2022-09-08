@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <base href="<?php echo BASE_URL ?>">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +16,9 @@
         <nav>
             <ul>
                 <li><a href="pi">Pi</a></li>
-                <li><a href="limit=5">ver limite de tabla en 5</a></li>
-                <li><a href="limit=10">ver limite de tabla en 10</a></li>
-                <li><a href="limit=20">ver limite de tabla en 20</a></li>
+                <li><a href="<?php echo BASE_URL; ?>5/tabla/">ver limite de tabla en 5</a></li>
+                <li><a href="<?php echo BASE_URL; ?>10/tabla/">ver limite de tabla en 10</a></li>
+                <li><a href="<?php echo BASE_URL; ?>20/tabla/">ver limite de tabla en 20</a></li>
             </ul>
         </nav>
     
