@@ -3,7 +3,7 @@
 
     if(!empty($_GET["limit"])) { 
         $limite = $_GET["limit"];
-        mostrarTabla ($limite);
+        
     } 
 
     function mostrarTabla ($limite){

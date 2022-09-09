@@ -16,9 +16,9 @@
         <nav>
             <ul>
                 <li><a href="pi">Pi</a></li>
-                <li><a href="<?php echo BASE_URL; ?>5/tabla/">ver limite de tabla en 5</a></li>
-                <li><a href="<?php echo BASE_URL; ?>10/tabla/">ver limite de tabla en 10</a></li>
-                <li><a href="<?php echo BASE_URL; ?>20/tabla/">ver limite de tabla en 20</a></li>
+                <li><a href="<?php echo BASE_URL; ?>tabla/5">ver limite de tabla en 5</a></li>
+                <li><a href="<?php echo BASE_URL; ?>tabla/10">ver limite de tabla en 10</a></li>
+                <li><a href="<?php echo BASE_URL; ?>tabla/20">ver limite de tabla en 20</a></li>
             </ul>
         </nav>
     
